@@ -42,8 +42,7 @@ class VK :
             return photos
         except KeyError:
             print('Неверный VKID или TOKEN , проверьте пожалуйста корректность ввода')
-        except TypeError:
-            print('видимо количество фотографий в альбоме меньше, чем вы хотите скачать')
+        
 
 
 class YaDisk:
